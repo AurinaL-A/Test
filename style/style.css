@@ -1,3 +1,30 @@
-*{
+* {
+    font-family: 'FutureBook';
+}
+
+p {
     font-family: 'Futura PT';
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FutureBook";
+    src: url("../fonts/FuturaPT-Book.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FutureMedium";
+    src: url("../fonts/FuturaPT-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FutureHeavy";
+    src: url("../fonts/FuturaPT-Heavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
