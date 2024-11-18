@@ -20,10 +20,12 @@
     }
     .b-news__info{
         flex-direction: row;
+        gap: 20px;
     }
     .b-news__info__item{
         border: none;
     }
+
 
 
 }
@@ -48,5 +50,20 @@
     }
     .maxwidth_320 {
         max-width: 720px;
+    }
+}
+@media(max-width:680px){
+    .container{
+        max-width: 600px;
+    }
+    .b-news__info {
+        flex-direction: column;
+        
+    }
+    .b-news__info__item{
+        border-bottom: 1px solid rgba(47, 34, 34, 0.1);
+    }
+    .menu{
+        display: none;
     }
 }
