@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -17,7 +20,7 @@
                     <li class="menu_link">О нас</li>
                     <li class="menu_link">Контакты</li>
                     <li class="menu_link">Поиск</li>
-                    <li class="menu_link li_flex">
+                    <li class="menu_link_call">
                         <img src="./images/phone-call.svg" alt="">
                         <p>+7 (987) 887-87</p>
                     </li>
@@ -25,18 +28,67 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <div class="banner"></div>
         <div class="container">
+            <div class="main__row">
+                <div class="b-categories">
+                    <div class="b-categories__item">
+                        <div class="b-categories__item__header-info">
+                            <p class="b-categories__item__number">Категория 1</p>
+                            <p class="b-categories__item__date">13 дек 2020</p>
+                        </div>
+                        <h2 class="b-categories__item__title">Управление ИТ-активами – скучная рутина или творческая задача?</h2>
+                        <p class="b-categories__item__description grey">Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. </p>
+                    </div>
+                </div>
+                <div class="b-news">
+                    <h2 class="b-news__title">Популярные новости</h2>
+                    <div class="b-news__info">
+                        <div class="b-news__info__item">
+                            <h3 class="b-news__info__item__title">ITAM&SAMDay – самая настоящая удача!</h3>
+                            <p class="b-news__info__item__date">13 дек 2020</p>
+                        </div>
+                        <div class="b-news__info__item">
+                            <h3 class="b-news__info__item__title">Секреты лицензирования. Всё, что вы хотели знать про Microsoft, 
+                                SAP и Oracle, но не знали, у кого спросить ...</h3>
+                            <p class="b-news__info__item__date">10 дек 2020</p>
+                        </div>
+                        <div class="b-news__info__item">
+                            <h3 class="b-news__info__item__title">Менеджмент XXI века. 
+                                Надо ли готовиться к изменениям или мы давно уже должны были измениться?</h3>
+                            <p class="b-news__info__item__date">5 дек 2020</p>
+                        </div>
+                    </div>
+                    <div class="b-news__subscribe">
+                        <h2 class="b-news__subscribe__title">Подписка на рассылку</h2>
+                        <form action="#" class="b-news__subscribe__form">
+                            <input class="b-news__subscribe__form__input" type="email" placeholder="Email@gmail.com">
+                            <button class="b-news__subscribe__form__btn">
+                                <p>Подписаться</p>
+                                <img src="./images/right-arrow.svg" alt="right-arrow">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </main>
     <footer class="footer">
         <div class="container">
             <div class="footer__row">
-
+                <img src="./images/logo.svg" alt="logo">
+                <ul class="menu">
+                    <li class="menu_link">О нас</li>
+                    <li class="menu_link">Галерея</li>
+                    <li class="menu_link">Новости</li>
+                    <li class="menu_link">Контакты</li>
+                </ul>
+                <p class="copyright-text">ООО “Организация” 2020. Все права защищены</p>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
