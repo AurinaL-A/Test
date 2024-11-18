@@ -1,0 +1,29 @@
+@media(max-width:1410px){
+    .container{
+        max-width: 1300px;
+    }
+    .main__row{
+        justify-content: center;
+    }
+
+}
+@media(max-width:1024px){
+    .container{
+        max-width: 940px;
+    }
+    .main__row{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .b-news{
+        max-width: 940px;
+    }
+    .b-news__info{
+        flex-direction: row;
+    }
+    .b-news__info__item{
+        border: none;
+    }
+
+
+}
