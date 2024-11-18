@@ -47,7 +47,7 @@
     padding-top: 40px;
     display: flex;
     gap: 40px;
-    flex-wrap: wrap;
+
 }
 .b-news{
     max-width: 320px;
@@ -107,7 +107,7 @@
 .flex__row{
     display: flex;
     gap: 40px;
-    flex-wrap: wrap;
+
 }
 .flex__column{
     display: flex;
