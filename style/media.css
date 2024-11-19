@@ -66,4 +66,36 @@
     .menu{
         display: none;
     }
+    
+}
+@media(max-width:425px){
+    .display{
+        display: none;
+    }
+    .b-paginations{
+        padding-top: 0;
+    }
+
+    .b-paginations__btn-reverse{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #5d71dd;
+        border-radius: 8px;
+        padding: 10px 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        width: 100%;
+    }
+    .b-paginations__btn{
+        display: none;
+    }
+    .b-paginations__list{
+        display: none;
+    }
 }
