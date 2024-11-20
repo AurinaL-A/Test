@@ -46,6 +46,20 @@
 .menu_link_call:hover{
     transform: scale(1.05);
 }
+
+/* Бургер-меню */
+.burger {
+    display: none; /* Скрыто на больших экранах */
+    cursor: pointer;
+  }
+  .burger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+  }
+
 .main{
     background: #f9f9f9;
 }
