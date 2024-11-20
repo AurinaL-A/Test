@@ -20,13 +20,18 @@
 .menu{
     display: flex;
     align-items: center;
-    gap: 40px;
+    width: 526px;
+    justify-content: space-between;
 }
 .menu_link{
     font-family: 'Futura PT';
     font-weight: 400;
     font-size: 18px;
     color: #2f2222;
+    transition: 0.5s;
+}
+.menu_link:hover{
+    transform: scale(1.05);
 }
 .menu_link_call{
     display: flex;
@@ -35,6 +40,11 @@
     font-weight: 500;
     font-size: 18px;
     color: #5d71dd;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.menu_link_call:hover{
+    transform: scale(1.05);
 }
 .main{
     background: #f9f9f9;
@@ -91,6 +101,9 @@
 .b-categories__item__description{
     font-weight: 400;
     font-size: 18px;
+}
+.maxwidth_1040{
+    max-width: 1060px;
 }
 .maxwidth_680{
     max-width: 680px;
