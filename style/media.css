@@ -63,29 +63,20 @@
     .b-news__info__item{
         border-bottom: 1px solid rgba(47, 34, 34, 0.1);
     }
-    .none {
+    .menu_link_call{
         display: none;
     }
-
-    .burger {
-        display: inline !important;
+    .menu__list{
+        width: 300px;
     }
+   
 
-    .menu__list {
-        position: fixed;
-        top: 120px;
-        right: 60px;
-        flex-direction: column;
-        gap: 20px;
-        background-color: rgb(211, 255, 216);
-        border-radius: 30px;
-        width: 200px;
-        height: 380px;
-        padding-top: 40px;
-    }
-    
+
 }
 @media(max-width:425px){
+     .none {
+        display: none;
+    }
     .display{
         display: none;
     }

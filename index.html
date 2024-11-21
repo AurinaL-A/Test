@@ -20,24 +20,20 @@
             <div class="header__row">
                 <img src="./images/logo.svg" alt="">
                 <img class="burger" src="./images/menu-icon.png" alt="" width="30px" />
-                <ul class="menu none">
-                    <a href="#">
-                        <li class="menu_link">Главная</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu_link">О нас</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu_link">Контакты</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu_link">Поиск</li>
+                <div class="menu none">
+                    <ul class="menu__list">
+                    <a href="#"><li class="menu_link">Главная</li></a>
+                    <a href="#"><li class="menu_link">О нас</li></a>
+                    <a href="#"><li class="menu_link">Контакты</li></a>
+                    <a href="#"><li class="menu_link">Поиск</li>
                     </a>
                     <li class="menu_link_call">
-                        <img src="./images/phone-call.svg" alt="">
+                        <img src="./images/phone-call.svg" alt="call">
                         <p>+7 (987) 887-87</p>
                     </li>
                 </ul>
+                </div>
+                
             </div>
             
         </div>
@@ -180,7 +176,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="b-news">
+                <aside class="b-news">
                     <h2 class="b-news__title">Популярные новости</h2>
                     <div class="b-news__info">
                         <div class="b-news__info__item">
@@ -202,14 +198,14 @@
                     <div class="b-news__subscribe">
                         <h2 class="b-news__subscribe__title">Подписка на рассылку</h2>
                         <form action="#" class="b-news__subscribe__form">
-                            <input class="b-news__subscribe__form__input" type="email" placeholder="Email@gmail.com">
+                            <input class="b-news__subscribe__form__input" type="email" placeholder="Email@gmail.com" required>
                             <button class="b-news__subscribe__form__btn">
                                 <p>Подписаться</p>
                                 <img src="./images/right-arrow.svg" alt="right-arrow">
                             </button>
                         </form>
                     </div>
-                </div>
+                </aside>
 
             </div>
 
@@ -220,7 +216,7 @@
         <div class="container">
             <div class="footer__row">
                 <img src="./images/logo.svg" alt="logo">
-                <ul class="menu">
+                <ul class="menu__list">
                     <li class="menu_link">О нас</li>
                     <li class="menu_link">Галерея</li>
                     <li class="menu_link">Новости</li>
